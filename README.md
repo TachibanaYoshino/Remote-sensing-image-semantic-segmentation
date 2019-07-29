@@ -17,6 +17,7 @@ This project has been used in the Sparse Representation and Intelligent Analysis
 - tifffile  
 - pyjson  
 - Pillow 6.0  
+- scikit-learn  
 
 ## Usage  
 ### 1. Download dataset  
