@@ -15,7 +15,7 @@ This project has been used in the Sparse Representation and Intelligent Analysis
 - argparse  
 - matplotlib  
 - tifffile  
-- pyjosn  
+- pyjson  
 - Pillow 6.0  
 
 ## Usage  
