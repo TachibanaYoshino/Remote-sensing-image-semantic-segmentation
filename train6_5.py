@@ -32,7 +32,7 @@ def train(args):
     model = Model(input, pred)
 
     model.summary()
-    adam = optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-8)
+    adam = optimizers.Adam(lr=0.0005, beta_1=0.9, beta_2=0.999, epsilon=1e-8)
 
     model.compile(optimizer=adam, loss=['categorical_crossentropy' for _ in range(5)],
                   loss_weights=[10., 0.1, 0.1, 0.1, 0.1], metrics=['accuracy'])
