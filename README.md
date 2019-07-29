@@ -7,7 +7,7 @@ This project has been used in the Sparse Representation and Intelligent Analysis
 ## Requirements  
 - python 3.6.8  
 - tensorflow-gpu 1.8 
-- Ketas 2.2.4
+- Keras 2.2.4
 - opencv-python  
 - tqdm  
 - numpy  
