@@ -1,7 +1,7 @@
 import json,os
 import numpy as np
 import tifffile as tiff
-
+from PIL import Image
 
 
 def get_label_from_palette(label_img, palette_file='Palette.json'):
@@ -22,7 +22,13 @@ def main(path):
     for pic in os.listdir(path):
         if 'label' in pic:
             print(pic)
-            label = tiff.imread(path + '/' +pic)
+            
+            # ---- read RGB label
+            label = Image.open(path + '/' +pic)
+            label = np.asarray(label)
+            # ----- another way 
+            # label = tiff.imread(path + '/' +pic)  # the code of this line can be run in windows system, which in ubuntu will get a error !!
+           
             label = get_label_from_palette(label)
             tiff.imsave(path + '/' +pic[:-9] + 'new-L.tif',label)
 
