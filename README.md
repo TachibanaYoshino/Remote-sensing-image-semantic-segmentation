@@ -29,7 +29,7 @@ This project has been used in the Sparse Representation and Intelligent Analysis
   `python create_train_val_label.py`  
 
 ### 3. Train  
-  eg. `python train6_5.py --model checkpoint6_5`  
+  eg. `python train6_6.py --model checkpoint6_6`  
   
 ### 4. Download pre-trained weights  
 > [Link](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/releases/tag/checkpoint6_6)  
