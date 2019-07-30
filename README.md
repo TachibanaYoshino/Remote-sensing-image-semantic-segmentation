@@ -28,9 +28,12 @@ This project has been used in the Sparse Representation and Intelligent Analysis
 
 ### 3. Train  
   eg. `python train6_5.py --model checkpoint6_5`  
+  
+### 4. Download pre-trained weights  
+> [Link](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/releases/tag/checkpoint6_6)  
 
-### 3. Test  
-  eg. `python test.py --model 'checkpoint'+ '/' + 'weights-003-0.6879-0.9207.h5'`  
+### 5. Test  
+  eg. `python test.py --model 'checkpoint6_6'+ '/' + 'weights-039-0.7205-0.8099.h5'`  
 
 ## Results 
 ![]()  
