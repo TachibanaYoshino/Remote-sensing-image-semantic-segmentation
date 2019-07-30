@@ -1,7 +1,9 @@
 # Remote-sensing-image-semantic-segmentation  
 The project uses Unet-based improved networks to study Remote sensing image semantic segmentation, which is based on keras.  
 This project has been used in the Sparse Representation and Intelligent Analysis of 2019 Remote Sensing Image competition.  
-（这工程已经在2019年遥感图像稀疏表征与智能分析竞赛中被使用过。）
+（这工程已经在2019年遥感图像稀疏表征与智能分析竞赛中被使用过。）  
+
+i[](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/blob/master/illustration.png)  
 
 ----  
 ## Requirements  
