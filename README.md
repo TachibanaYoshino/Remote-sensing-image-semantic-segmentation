@@ -38,8 +38,8 @@ This project has been used in the Sparse Representation and Intelligent Analysis
   eg. `python test.py --model 'checkpoint6_6'+ '/' + 'weights-039-0.7205-0.8099.h5'`  
 
 ## Results 
-   Since the original remote sensing image is too large, a partial screenshot of the test results is given here  
+   Since the original remote sensing image is too large, a partial screenshot of the test results is given here.  
    
-![](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/blob/master/dataset/screenshot1.png)  
+![](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/blob/master/dataset/screenshot2.png)  
   
-![](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/blob/master/dataset/screenshot2.png)
+![](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation/blob/master/dataset/screenshot1.png)
